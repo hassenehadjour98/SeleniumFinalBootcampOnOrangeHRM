@@ -1,0 +1,1667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="32" passed="20" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/hassenehadjour/Desktop/SeleniumFinal/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-05T22:39:59 EST" name="All Test Suite" finished-at="2023-02-05T22:42:17 EST" duration-ms="137843">
+    <groups>
+    </groups>
+    <test started-at="2023-02-05T22:39:59 EST" name="/Users/hassenehadjour/Desktop/web-automation-framework-team-6/src/test/java/orangehrm/project/tests" finished-at="2023-02-05T22:42:17 EST" duration-ms="137843">
+      <class name="orangehrm.project.tests.MyInfoTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.MyInfoTest@69eb86b4]" started-at="2023-02-05T22:42:10 EST" name="setUp" finished-at="2023-02-05T22:42:13 EST" duration-ms="3272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.MyInfoTest@69eb86b4]" started-at="2023-02-05T22:42:13 EST" name="startExtent" finished-at="2023-02-05T22:42:13 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.MyInfoTest.selectBloodType()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="selectBloodType()[pri:0, instance:orangehrm.project.tests.MyInfoTest@69eb86b4]" started-at="2023-02-05T22:42:13 EST" name="selectBloodType" finished-at="2023-02-05T22:42:17 EST" duration-ms="4400" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Success] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Success] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at orangehrm.project.tests.MyInfoTest.selectBloodType(MyInfoTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBloodType -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.MyInfoTest@69eb86b4]" started-at="2023-02-05T22:42:17 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:42:17 EST" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectBloodType status=FAILURE method=MyInfoTest.selectBloodType()[pri:0, instance:orangehrm.project.tests.MyInfoTest@69eb86b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- orangehrm.project.tests.MyInfoTest -->
+      <class name="orangehrm.project.tests.AdminPageTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d]" started-at="2023-02-05T22:39:59 EST" name="extentSetup" finished-at="2023-02-05T22:39:59 EST" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2df40273]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/hassenehadjour/Desktop/SeleniumFinal/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d]" started-at="2023-02-05T22:40:00 EST" name="setUp" finished-at="2023-02-05T22:40:04 EST" duration-ms="4236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d]" started-at="2023-02-05T22:40:04 EST" name="startExtent" finished-at="2023-02-05T22:40:04 EST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.AdminPageTest.AddJobTitle(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="AddJobTitle(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d]" started-at="2023-02-05T22:40:04 EST" name="AddJobTitle" data-provider="Add a job title" finished-at="2023-02-05T22:40:10 EST" duration-ms="5798" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Global Healthcare Coordinator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thunderstorms]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is Java faker]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Successfully Saved] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Successfully Saved] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at orangehrm.project.tests.AdminPageTest.AddJobTitle(AdminPageTest.java:66)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddJobTitle -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d]" started-at="2023-02-05T22:40:10 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:40:10 EST" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddJobTitle status=FAILURE method=AdminPageTest.AddJobTitle(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d]" started-at="2023-02-05T22:40:10 EST" name="setUp" finished-at="2023-02-05T22:40:13 EST" duration-ms="3311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ChangePasswordCheckBox()[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d]" started-at="2023-02-05T22:40:13 EST" name="ChangePasswordCheckBox" finished-at="2023-02-05T22:40:18 EST" duration-ms="4350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordCheckBox -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d]" started-at="2023-02-05T22:40:13 EST" name="startExtent" finished-at="2023-02-05T22:40:13 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.AdminPageTest.ChangePasswordCheckBox()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d]" started-at="2023-02-05T22:40:18 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:40:18 EST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePasswordCheckBox status=SUCCESS method=AdminPageTest.ChangePasswordCheckBox()[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:orangehrm.project.tests.AdminPageTest@4642b71d]" started-at="2023-02-05T22:42:17 EST" name="generateReport" finished-at="2023-02-05T22:42:17 EST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- orangehrm.project.tests.AdminPageTest -->
+      <class name="orangehrm.project.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:17 EST" name="setUp" finished-at="2023-02-05T22:41:20 EST" duration-ms="3305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:20 EST" name="startExtent" finished-at="2023-02-05T22:41:20 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.LoginPageTest.FacebookIconLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="FacebookIconLink()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:20 EST" name="FacebookIconLink" finished-at="2023-02-05T22:41:21 EST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookIconLink -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:21 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:41:21 EST" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FacebookIconLink status=SUCCESS method=LoginPageTest.FacebookIconLink()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:21 EST" name="setUp" finished-at="2023-02-05T22:41:25 EST" duration-ms="3287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LinkedinIconLink()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:25 EST" name="LinkedinIconLink" finished-at="2023-02-05T22:41:26 EST" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedinIconLink -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:25 EST" name="startExtent" finished-at="2023-02-05T22:41:25 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.LoginPageTest.LinkedinIconLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:26 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:41:26 EST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LinkedinIconLink status=SUCCESS method=LoginPageTest.LinkedinIconLink()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:26 EST" name="setUp" finished-at="2023-02-05T22:41:29 EST" duration-ms="3301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:29 EST" name="startExtent" finished-at="2023-02-05T22:41:29 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.LoginPageTest.LoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="LoginTest()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:29 EST" name="LoginTest" finished-at="2023-02-05T22:41:31 EST" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:31 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:41:31 EST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginPageTest.LoginTest()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:31 EST" name="setUp" finished-at="2023-02-05T22:41:35 EST" duration-ms="3248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginTestWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:35 EST" name="LoginTestWithInvalidCredentials" data-provider="LoginDataProvider" finished-at="2023-02-05T22:41:36 EST" duration-ms="1531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dong.leffler]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jus6l06rfnev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestWithInvalidCredentials -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:35 EST" name="startExtent" finished-at="2023-02-05T22:41:35 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.LoginPageTest.LoginTestWithInvalidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:36 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:41:36 EST" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTestWithInvalidCredentials status=SUCCESS method=LoginPageTest.LoginTestWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:36 EST" name="setUp" finished-at="2023-02-05T22:41:39 EST" duration-ms="3262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginTestWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:39 EST" name="LoginTestWithInvalidCredentials" data-provider="LoginDataProvider" finished-at="2023-02-05T22:41:41 EST" duration-ms="1294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dong.leffler]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestWithInvalidCredentials -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:39 EST" name="startExtent" finished-at="2023-02-05T22:41:39 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.LoginPageTest.LoginTestWithInvalidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:41 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:41:41 EST" duration-ms="127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTestWithInvalidCredentials status=SUCCESS method=LoginPageTest.LoginTestWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:41 EST" name="setUp" finished-at="2023-02-05T22:41:44 EST" duration-ms="3277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginTestWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:44 EST" name="LoginTestWithInvalidCredentials" data-provider="LoginDataProvider" finished-at="2023-02-05T22:41:46 EST" duration-ms="1615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jus6l06rfnev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestWithInvalidCredentials -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:44 EST" name="startExtent" finished-at="2023-02-05T22:41:44 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.LoginPageTest.LoginTestWithInvalidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:46 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:41:46 EST" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTestWithInvalidCredentials status=SUCCESS method=LoginPageTest.LoginTestWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:46 EST" name="setUp" finished-at="2023-02-05T22:41:49 EST" duration-ms="3363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:49 EST" name="startExtent" finished-at="2023-02-05T22:41:49 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.LoginPageTest.OrangeHrmIncLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="OrangeHrmIncLink()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:49 EST" name="OrangeHrmIncLink" finished-at="2023-02-05T22:41:51 EST" duration-ms="2160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrmIncLink -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:51 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:41:52 EST" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrmIncLink status=SUCCESS method=LoginPageTest.OrangeHrmIncLink()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:52 EST" name="setUp" finished-at="2023-02-05T22:41:55 EST" duration-ms="3306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ResetPassword()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:55 EST" name="ResetPassword" finished-at="2023-02-05T22:41:57 EST" duration-ms="2451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetPassword -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:55 EST" name="startExtent" finished-at="2023-02-05T22:41:55 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.LoginPageTest.ResetPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:57 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:41:57 EST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ResetPassword status=SUCCESS method=LoginPageTest.ResetPassword()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:41:57 EST" name="setUp" finished-at="2023-02-05T22:42:01 EST" duration-ms="3286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TweeterIconLink()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:42:01 EST" name="TweeterIconLink" finished-at="2023-02-05T22:42:01 EST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweeterIconLink -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:42:01 EST" name="startExtent" finished-at="2023-02-05T22:42:01 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.LoginPageTest.TweeterIconLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:42:01 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:42:01 EST" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TweeterIconLink status=SUCCESS method=LoginPageTest.TweeterIconLink()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:42:01 EST" name="setUp" finished-at="2023-02-05T22:42:05 EST" duration-ms="3891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:42:05 EST" name="startExtent" finished-at="2023-02-05T22:42:05 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.LoginPageTest.YouTubeIconLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="YouTubeIconLink()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:42:05 EST" name="YouTubeIconLink" finished-at="2023-02-05T22:42:09 EST" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YouTubeIconLink -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1]" started-at="2023-02-05T22:42:09 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:42:10 EST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=YouTubeIconLink status=SUCCESS method=LoginPageTest.YouTubeIconLink()[pri:0, instance:orangehrm.project.tests.LoginPageTest@3b0ca5e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- orangehrm.project.tests.LoginPageTest -->
+      <class name="orangehrm.project.tests.HomePagetest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:25 EST" name="setUp" finished-at="2023-02-05T22:40:28 EST" duration-ms="3292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:28 EST" name="startExtent" finished-at="2023-02-05T22:40:28 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.HomePagetest.AdminFromMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="AdminFromMenu()[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:28 EST" name="AdminFromMenu" finished-at="2023-02-05T22:40:31 EST" duration-ms="3117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminFromMenu -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:31 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:40:31 EST" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AdminFromMenu status=SUCCESS method=HomePagetest.AdminFromMenu()[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:31 EST" name="setUp" finished-at="2023-02-05T22:40:35 EST" duration-ms="3261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LeaveFromMenu()[pri:2, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:35 EST" name="LeaveFromMenu" finished-at="2023-02-05T22:40:38 EST" duration-ms="3021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeaveFromMenu -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:35 EST" name="startExtent" finished-at="2023-02-05T22:40:35 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.HomePagetest.LeaveFromMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:38 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:40:38 EST" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LeaveFromMenu status=SUCCESS method=HomePagetest.LeaveFromMenu()[pri:2, instance:orangehrm.project.tests.HomePagetest@17ca8b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:38 EST" name="setUp" finished-at="2023-02-05T22:40:41 EST" duration-ms="3427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:41 EST" name="startExtent" finished-at="2023-02-05T22:40:41 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.HomePagetest.TimeFromMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="TimeFromMenu()[pri:3, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:41 EST" name="TimeFromMenu" finished-at="2023-02-05T22:40:45 EST" duration-ms="3183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TimeFromMenu -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:45 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:40:45 EST" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TimeFromMenu status=SUCCESS method=HomePagetest.TimeFromMenu()[pri:3, instance:orangehrm.project.tests.HomePagetest@17ca8b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:45 EST" name="setUp" finished-at="2023-02-05T22:40:48 EST" duration-ms="3250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RecruitmentFromMenu()[pri:4, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:48 EST" name="RecruitmentFromMenu" finished-at="2023-02-05T22:40:51 EST" duration-ms="3053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecruitmentFromMenu -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:48 EST" name="startExtent" finished-at="2023-02-05T22:40:48 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.HomePagetest.RecruitmentFromMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:51 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:40:51 EST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecruitmentFromMenu status=SUCCESS method=HomePagetest.RecruitmentFromMenu()[pri:4, instance:orangehrm.project.tests.HomePagetest@17ca8b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:51 EST" name="setUp" finished-at="2023-02-05T22:40:54 EST" duration-ms="3296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:54 EST" name="startExtent" finished-at="2023-02-05T22:40:54 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.HomePagetest.PerformanceFromMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="PerformanceFromMenu()[pri:6, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:54 EST" name="PerformanceFromMenu" finished-at="2023-02-05T22:40:58 EST" duration-ms="3187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformanceFromMenu -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:58 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:40:58 EST" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PerformanceFromMenu status=SUCCESS method=HomePagetest.PerformanceFromMenu()[pri:6, instance:orangehrm.project.tests.HomePagetest@17ca8b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:40:58 EST" name="setUp" finished-at="2023-02-05T22:41:01 EST" duration-ms="3255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DashboardFromMenu()[pri:7, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:41:01 EST" name="DashboardFromMenu" finished-at="2023-02-05T22:41:04 EST" duration-ms="2817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardFromMenu -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:41:01 EST" name="startExtent" finished-at="2023-02-05T22:41:01 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.HomePagetest.DashboardFromMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:41:04 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:41:04 EST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DashboardFromMenu status=SUCCESS method=HomePagetest.DashboardFromMenu()[pri:7, instance:orangehrm.project.tests.HomePagetest@17ca8b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:41:04 EST" name="setUp" finished-at="2023-02-05T22:41:07 EST" duration-ms="3266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DirectoryFromMenu()[pri:8, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:41:07 EST" name="DirectoryFromMenu" finished-at="2023-02-05T22:41:11 EST" duration-ms="3343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DirectoryFromMenu -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:41:07 EST" name="startExtent" finished-at="2023-02-05T22:41:07 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.HomePagetest.DirectoryFromMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:41:11 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:41:11 EST" duration-ms="127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DirectoryFromMenu status=SUCCESS method=HomePagetest.DirectoryFromMenu()[pri:8, instance:orangehrm.project.tests.HomePagetest@17ca8b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:41:11 EST" name="setUp" finished-at="2023-02-05T22:41:14 EST" duration-ms="3260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="BuzzFromMenu()[pri:10, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:41:14 EST" name="BuzzFromMenu" finished-at="2023-02-05T22:41:17 EST" duration-ms="2891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuzzFromMenu -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:41:14 EST" name="startExtent" finished-at="2023-02-05T22:41:14 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.HomePagetest.BuzzFromMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.HomePagetest@17ca8b92]" started-at="2023-02-05T22:41:17 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:41:17 EST" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BuzzFromMenu status=SUCCESS method=HomePagetest.BuzzFromMenu()[pri:10, instance:orangehrm.project.tests.HomePagetest@17ca8b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- orangehrm.project.tests.HomePagetest -->
+      <class name="orangehrm.project.tests.BuzzPageTest">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.project.tests.BuzzPageTest@3122b117]" started-at="2023-02-05T22:40:18 EST" name="setUp" finished-at="2023-02-05T22:40:21 EST" duration-ms="3245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCommentToMostRecentPost()[pri:0, instance:orangehrm.project.tests.BuzzPageTest@3122b117]" started-at="2023-02-05T22:40:21 EST" name="addCommentToMostRecentPost" finished-at="2023-02-05T22:40:25 EST" duration-ms="3864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCommentToMostRecentPost -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:orangehrm.project.tests.BuzzPageTest@3122b117]" started-at="2023-02-05T22:40:21 EST" name="startExtent" finished-at="2023-02-05T22:40:21 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orangehrm.project.tests.BuzzPageTest.addCommentToMostRecentPost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:orangehrm.project.tests.BuzzPageTest@3122b117]" started-at="2023-02-05T22:40:25 EST" name="afterEachTestMethod" finished-at="2023-02-05T22:40:25 EST" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addCommentToMostRecentPost status=SUCCESS method=BuzzPageTest.addCommentToMostRecentPost()[pri:0, instance:orangehrm.project.tests.BuzzPageTest@3122b117] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- orangehrm.project.tests.BuzzPageTest -->
+    </test> <!-- /Users/hassenehadjour/Desktop/web-automation-framework-team-6/src/test/java/orangehrm/project/tests -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
